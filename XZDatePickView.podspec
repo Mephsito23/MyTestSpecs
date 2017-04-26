@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XZDatePickView"
-  s.version      = "0.1.0"
+  s.version      = "0.0.1"
   s.summary      = "A short description of XZDatePickView."
   s.homepage     = "https://github.com/Mephsito23/XZDatePickView.git"
   s.license      = "MIT"
