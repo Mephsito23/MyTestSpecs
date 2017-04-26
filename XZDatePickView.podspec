@@ -11,14 +11,20 @@ Pod::Spec.new do |s|
   s.name         = "XZDatePickView"
   s.version      = "0.0.1"
   s.summary      = "A short description of XZDatePickView."
+
+  s.description  = <<-DESC
+		  atesting provate pod spec
+                   DESC
+
   s.homepage     = "https://github.com/Mephsito23/XZDatePickView.git"
   s.license      = "MIT"
-  s.author       = { "mephsito" => "xiezefu@outlook.com" }
+  s.author             = { "mephsito" => "xiezefu@outlook.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/Mephsito23/XZDatePickView.git", :tag => s.version}
+  s.source       = { :git => "https://github.com/Mephsito23/XZDatePickView.git", :tag => s.version }
 
-  s.source_files  = "XZDatePickView/**/*.{h,m}"
-  s.frameworks = "UIKit", "Foundation"
+  s.source_files  = "XZDatePickView", "XZDatePickView/**/*.{h,m}"
+  s.exclude_files = "XZDatePickView/Tools"
+
   s.dependency "Masonry", "~> 1.0.2"
 
 end
