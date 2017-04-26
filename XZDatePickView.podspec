@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "mephsito" => "xiezefu@outlook.com" }
   s.platform     = :ios, "9.0"
-  s.source       = { :git => "https://github.com/Mephsito23/XZDatePickView.git", :tag => s.versiou }
+  s.source       = { :git => "https://github.com/Mephsito23/XZDatePickView.git", :tag => s.version}
   s.source_files  = "XZDatePickVie/*.{h,m}"
   s.frameworks = "UIKit", "Foundation"
   s.dependency "Masonry", "~> 1.0.2"
